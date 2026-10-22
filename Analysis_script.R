@@ -54,10 +54,10 @@ COEF0 <-as.data.frame(t(data.frame(
   VAR1= rep(NA, 4),
   ICC= rep(NA, 4)
 )))
-colnames(COEF2)[1]<-"MAT"
-colnames(COEF2)[2]<-"ITA"
-colnames(COEF2)[3]<-"ERE"
-colnames(COEF2)[4]<-"ELI"
+colnames(COEF0)[1]<-"MAT"
+colnames(COEF0)[2]<-"ITA"
+colnames(COEF0)[3]<-"ERE"
+colnames(COEF0)[4]<-"ELI"
 
 SE2 <-as.data.frame(t(data.frame(
   INT = rep(NA,4),
